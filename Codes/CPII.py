@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pandas as pd
-import numpy as np
+import numpy as np 
 from pandas.tseries.offsets import MonthEnd
 
 # Input:
