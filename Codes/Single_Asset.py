@@ -5,7 +5,7 @@ class Single_Asset:
     def __init__(self, ann: int, rf=0.0, data=None):
         """
         Initialize a backtester for a single asset
-        Processes a closing price series and outputs several statistics
+        Processes a closing price series and outputs several statistics 
         Cannot apply position allocations to the closing price series
         :param int ann: number of periods used to annualize statistics, e.g., 250 for daily closing prices, 52 for weekly,
         12 for monthly, etc.
