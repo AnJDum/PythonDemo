@@ -4,7 +4,7 @@ from .Single_Asset import Single_Asset
 import matplotlib.pyplot as plt
 import warnings
 
-pd.set_option('display.max_rows', 5000)
+pd.set_option('display.max_rows', 5000) 
 warnings.filterwarnings('ignore')
 
 class Portfolio:
